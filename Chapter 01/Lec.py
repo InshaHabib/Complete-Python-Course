@@ -1,0 +1,1 @@
+print("A Software Engineering graduate from Foundation University with a passion for technology and innovation.")
