@@ -15,4 +15,3 @@ g = "3.45"
 h =  float(g) # g but the type should be float
 i = type(h)
 print(i)
-  
