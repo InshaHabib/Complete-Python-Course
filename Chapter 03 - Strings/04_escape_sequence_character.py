@@ -5,4 +5,4 @@ sen = "Insha Habib is a \"software engineer\" \n but not interested in theoretic
 print(sen)
 
 word = "escape\t sequence"
-# print(word)
+print(word)
