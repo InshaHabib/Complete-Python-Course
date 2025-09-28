@@ -1,4 +1,4 @@
-# PProgram to rename a file to "renamed_by_python.txt".
+# ttProgram to rename a file to "renamed_by_python.txt".
 
 with open("old.txt") as f:
     data = f.read()

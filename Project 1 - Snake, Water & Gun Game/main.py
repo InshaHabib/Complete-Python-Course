@@ -1,4 +1,4 @@
-# We all have played snake, water gun game in our childhood. 
+# We all have played snake, water, gun game in our childhood. 
 # If you haven't, google the rules of this game and 
 # write a python program capable of playing this game with the user.
 
@@ -9,6 +9,7 @@
 '''
 import random
 
+print("Welcome to Snake, Water, Gun Game!")
 computer = random.choice([1, 0, -1])  # 1 for snake, -1 for water, 0 for gun
 user = input("Enter your choice: ")
 dict = {"snake": 1, "water": -1, "gun": 0}
