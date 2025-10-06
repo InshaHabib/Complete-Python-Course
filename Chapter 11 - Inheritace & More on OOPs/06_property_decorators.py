@@ -1,4 +1,5 @@
-# Property Decorators in Python
+# Property Decorators in Python :- are used to define methods in a class which can be accessed like attributes.
+# They are used to add getter, setter and deleter functions in a class.
 
 # Class Method in Python
 class employee:
@@ -9,7 +10,7 @@ class employee:
         
     @property
     def name(self):
-        return self.ename
+        return  f"{self.fname}{self.lname}"
     
     @name.setter
     def name (self, value):
@@ -20,7 +21,7 @@ e = employee()
 e.a = 45
 
 e.name = "Insha Habib"
-print(e.name)
+print(e.fname,e.lname)
 
 e.show()
 
