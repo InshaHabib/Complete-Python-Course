@@ -22,7 +22,8 @@ print("Sum:", c + c1)
 print("Multiplication:", c * c1)
 
 
-"""class Complex:
+"""
+class Complex:
     def __init__(self, r, i):
         self.r = r
         self.i = i
@@ -38,4 +39,6 @@ b = Complex(2,6)
 c = a.__add__(b)
 d = a.__mul__(b)
 print(f"Sum: {c.r} + {c.i}i")
-print(f"Multiplication: {d.r} + {d.i}i")"""
+print(f"Multiplication: {d.r} + {d.i}i")
+"""
+
