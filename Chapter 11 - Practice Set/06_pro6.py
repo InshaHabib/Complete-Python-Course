@@ -1,8 +1,9 @@
-# Write a class vector representing a vector of n dimensions. 
-# Overload the + and * operator which calculates the sum and the dot(.) product of them.
+# Write __str__() method to print the vector as follows:
+# 7i + 8j + 10k
+# Assume vector of dimension 3 for this problem.
 
 class Vector:
-    def __init__(self, x, y, z): # 3 dimension (3 values)
+    def __init__(self, x, y, z):
         self.x = x
         self.y = y
         self.z = z
@@ -16,16 +17,17 @@ class Vector:
         return result
 
     def __str__(self):
-        return f"Vector({self.x}, {self.y}, {self.z})"
+        return f"{self.x}i + {self.y}j + {self.z}k"
 
 # Test the implementation
 v1 = Vector(1, 2, 3)
 v2 = Vector(4, 5, 6)
-
-# v3 = Vector(7, 8, 9)  # Same dimension vector
+v3 = Vector(7, 8, 9)  # Same dimension vector
 
 print(v1 + v2)  # Output: Vector(5, 7, 9)
 print(v1 * v2)  # Output: 32
 
-# print(v1 + v3)  # Output: Vector(8, 10, 12)
-# print(v1 * v3)  # Output: 50
+print(v1 + v3)  # Output: Vector(8, 10, 12)
+print(v1 * v3)  # Output: 50
+
+    
